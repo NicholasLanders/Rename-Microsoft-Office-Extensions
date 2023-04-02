@@ -1,7 +1,7 @@
 function RenameMicrosoftDriver() {
 
     let files = DriveApp.getFiles();
-    let anyChangeCnt = 0; 
+     
   
     while (files.hasNext()) {
       let file = files.next();
